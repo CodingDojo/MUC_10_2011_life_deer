@@ -33,7 +33,7 @@ public class Grid
         
         if (position < 0) return false;
         
-        if (position >= this.Cells.Count) return false;
+        if (position > this.Cells.Count) return false;
         
         return this.Cells[position -1];
     }
