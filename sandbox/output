@@ -1,2 +1,3 @@
-Untitled.cs(22,74): error CS1061: Type `System.Collections.Generic.List<bool>' does not contain a definition for `Where' and no extension method `Where' of type `System.Collections.Generic.List<bool>' could be found (are you missing a using directive or an assembly reference?)
-Compilation failed: 1 error(s), 0 warnings
+Untitled.cs(19,14): warning CS0219: The variable `grid' is assigned but its value is never used
+Untitled.cs(16,17): error CS0161: `GameOfLife.GetNextGeneration()': not all code paths return a value
+Compilation failed: 1 error(s), 1 warnings
