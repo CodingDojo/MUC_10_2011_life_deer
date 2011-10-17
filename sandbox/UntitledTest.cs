@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq.Expressions;
+using System.Linq;
 using NUnit.Framework;
 
 [TestFixture]
@@ -37,6 +39,13 @@ public class UntitledTest
     {
         Grid grid = new Grid(3,3, new List<bool> {false, true, false, false, false, false, false, false, false  });
         Assert.AreEqual(false, grid.GetNeighborN(6));
+    }
+
+    [Test]
+    public void GetNeighborWith2LivingNeighborsReturnsThem()
+    {
+        Grid grid = new Grid(3,3, new List<bool> {false, true, true, false, false, false, false, false, false  });
+        Assert.AreEqual(false, grid.GetNeighbors(5).Where(x => x = true).Count());
     }
 
 

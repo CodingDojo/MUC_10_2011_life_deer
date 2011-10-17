@@ -24,7 +24,15 @@ public class Grid
         {
             return results;
         }
-        
+
+        results.Add(GetNeighborNW(position));
+        results.Add(GetNeighborN(position));
+        results.Add(GetNeighborNE(position));
+        results.Add(GetNeighborW(position));
+        results.Add(GetNeighborE(position));
+        results.Add(GetNeighborSW(position));
+        results.Add(GetNeighborS(position));
+        results.Add(GetNeighborSE(position));
 
         return results;
     }
@@ -49,5 +57,33 @@ public class Grid
     {
         return IsAlive(position - this.Width);
     }
+
+    public bool GetNeighborNE(int position)
+    {
+        return IsAlive(position - this.Width + 1);
+    }
+
+    public bool GetNeighborW(int position)
+    {
+        return IsAlive(position - 1);
+    }
+    public bool GetNeighborE(int position)
+    {
+        return IsAlive(position + 1);
+    }
+    public bool GetNeighborSW(int position)
+    {
+        return IsAlive(position + this.Width - 1);
+    }
+    public bool GetNeighborS(int position)
+    {
+        return IsAlive(position + this.Width);
+    }
+    public bool GetNeighborSE(int position)
+    {
+        return IsAlive(position + this.Width + 1);
+    }
+
+
 }
 

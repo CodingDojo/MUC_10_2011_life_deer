@@ -1,3 +1,4 @@
-Untitled.cs(45,40): error CS1061: Type `Grid' does not contain a definition for `Witdh' and no extension method `Witdh' of type `Grid' could be found (are you missing a using directive or an assembly reference?)
-Untitled.cs(50,40): error CS1061: Type `Grid' does not contain a definition for `Witdh' and no extension method `Witdh' of type `Grid' could be found (are you missing a using directive or an assembly reference?)
-Compilation failed: 2 error(s), 0 warnings
+.....
+Tests run: 5, Failures: 0, Not run: 0, Time: 0.024 seconds
+
+
