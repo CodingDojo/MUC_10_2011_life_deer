@@ -51,7 +51,7 @@ public class UntitledTest
     [Test]
     public void GetNeighborWith1LivingNeighborsReturnsOne()
     {
-        Grid grid = new Grid(3,3, new List<bool> {false, true, true, false, false, false, false, false, false  });
+        Grid grid = new Grid(3,3, new List<bool> {true, true, false, false, false, false, false, false, false  });
         Assert.AreEqual(1, grid.GetNeighbors(6).Where(x => x == true).Count());
     }
 

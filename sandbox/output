@@ -1,4 +1,12 @@
-......
-Tests run: 6, Failures: 0, Not run: 0, Time: 0.033 seconds
+...F....
+Tests run: 7, Failures: 1, Not run: 0, Time: 0.074 seconds
+
+Test Case Failures:
+1) UntitledTest.GetNeighborWith1LivingNeighborsReturnsOne :   Expected: 1
+  But was:  2
+
+at UntitledTest.GetNeighborWith1LivingNeighborsReturnsOne () [0x00000]
+at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
+at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000]
 
 
