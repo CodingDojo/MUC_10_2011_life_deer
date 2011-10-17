@@ -1,3 +1,4 @@
-UntitledTest.cs(11,31): error CS0117: `Untitled' does not contain a definition for `Answer'
-/var/www/cyberdojo/dojos/85/e51d32b0aba81cfea7d0eee1a1ef70a644f780/deer/sandbox/Untitled.dll (Location of the symbol related to previous error)
-Compilation failed: 1 error(s), 0 warnings
+.
+Tests run: 1, Failures: 0, Not run: 0, Time: 0.023 seconds
+
+

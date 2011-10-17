@@ -26,5 +26,16 @@ public class Grid
         }
         return results;
     }
+    
+    public bool IsAlive(int position)
+    {
+        if (this.Cells == null) return false;
+        
+        if (position < 0) return false;
+        
+        if (position > this.Cells.Count) return false;
+        
+        return this.Cells[position];
+    }
 }
 

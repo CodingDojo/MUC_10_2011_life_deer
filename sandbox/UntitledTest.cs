@@ -14,5 +14,13 @@ public class UntitledTest
         Assert.AreEqual(0, result.Count);
          
     }
+    
+    [Test]
+    public void GivenAGridWithALivingCellAtStartingPositionReturnsItsValueWhenAsked()
+    {
+        Grid grid = new Grid(1,1, new List<bool> {true});
+        Assert.AreEqual(true, grid.IsAlive(1));
+    }
+
 }
 
