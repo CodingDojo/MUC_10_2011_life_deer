@@ -35,7 +35,7 @@ public class Grid
         
         if (position > this.Cells.Count) return false;
         
-        return this.Cells[position];
+        return this.Cells[position -1];
     }
 }
 
