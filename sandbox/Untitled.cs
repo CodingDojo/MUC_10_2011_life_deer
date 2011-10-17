@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using System;
 
+public class Untitled
+{}
+
 public class Grid
 {
     public Grid(int height, int width, List<bool> cells)
