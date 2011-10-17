@@ -1,5 +1,5 @@
-Untitled.cs(21,17): error CS1519: Unexpected symbol `{' in class, struct, or interface member declaration
-Untitled.cs(21,21): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
-Untitled.cs(21,25): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
-Untitled.cs(22,18): error CS8025: Parsing error
+Untitled.cs(15,18): error CS1519: Unexpected symbol `{' in class, struct, or interface member declaration
+Untitled.cs(15,22): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
+Untitled.cs(15,26): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
+Untitled.cs(16,19): error CS8025: Parsing error
 Compilation failed: 4 error(s), 0 warnings

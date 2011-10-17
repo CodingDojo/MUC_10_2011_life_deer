@@ -1,8 +1,6 @@
 using System.Collections.Generic;
 using System;
 
-
-
 public class Grid
 {
     public Grid(int height, int width, List<bool> cells)
@@ -12,8 +10,8 @@ public class Grid
         this.Cells = cells;
     }
     
-    public Width {get;set;}
-    public Height {get;set;}
+    public int Width {get;set;}
+    public int Height {get;set;}
     public List<bool> Cells {get;set;}
     
     public List<bool> GetNeighbors(int position)
