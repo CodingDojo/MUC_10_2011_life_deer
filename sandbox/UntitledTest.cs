@@ -25,7 +25,7 @@ public class UntitledTest
     [Test]
     public void GivenAGridWithADeadCellReturnsItsValueWhenAsked()
     {
-        Grid grid = new Grid(1,1, new List<bool> {false, true, false});
+        Grid grid = new Grid(1,3, new List<bool> {false, true, false});
         Assert.AreEqual(false, grid.IsAlive(1));
     }
 

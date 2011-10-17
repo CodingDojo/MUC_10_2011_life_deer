@@ -1,5 +1,5 @@
 ..F.
-Tests run: 3, Failures: 1, Not run: 0, Time: 0.065 seconds
+Tests run: 3, Failures: 1, Not run: 0, Time: 0.070 seconds
 
 Test Case Failures:
 1) UntitledTest.GivenAGridWithALivingCellAtStartingPositionReturnsItsValueWhenAsked :   Expected: True
