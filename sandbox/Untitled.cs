@@ -16,7 +16,7 @@ public class GameOfLife
         List<bool> results = new List<bool>();
         Grid grid = new Grid(GoLGrid.Width, GoLGrid.Height, results);
         
-        for  (int i = 0; i < GoLGrid.Cells.Count)
+        for  (int i = 0; i < GoLGrid.Cells.Count; i++)
         {
             int position = i + 1;
             int numberOfLivingNeighbors = GoLGrid.GetNeighbors(position).Where(x => x == true).Count();

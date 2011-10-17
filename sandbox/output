@@ -1,4 +1,3 @@
-.......
-Tests run: 7, Failures: 0, Not run: 0, Time: 0.032 seconds
-
-
+Untitled.cs(19,49): error CS1525: Unexpected symbol `)', expecting `;'
+Untitled.cs(19,49): error CS8032: Internal compiler error during parsing, Run with -v for details
+Compilation failed: 2 error(s), 0 warnings
