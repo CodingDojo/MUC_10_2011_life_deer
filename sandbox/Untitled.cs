@@ -42,12 +42,12 @@ public class Grid
 
     public bool GetNeighborNW(int position)
     {
-        return IsAlive(position - this.Witdh - 1);
+        return IsAlive(position - this.Width - 1);
     }
 
     public bool GetNeighborN(int position)
     {
-        return IsAlive(position - this.Witdh);
+        return IsAlive(position - this.Width);
     }
 }
 
