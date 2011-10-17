@@ -34,7 +34,7 @@ public class GameOfLife
             }
             else
             {
-                if (numberOfLivingNeighbors = 3)
+                if (numberOfLivingNeighbors == 3)
                 {
                     results[i] = true; //alive
                 }
