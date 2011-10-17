@@ -1,3 +1,2 @@
 Untitled.cs(22,74): error CS1061: Type `System.Collections.Generic.List<bool>' does not contain a definition for `Where' and no extension method `Where' of type `System.Collections.Generic.List<bool>' could be found (are you missing a using directive or an assembly reference?)
-Untitled.cs(37,17): error CS0029: Cannot implicitly convert type `int' to `bool'
-Compilation failed: 2 error(s), 0 warnings
+Compilation failed: 1 error(s), 0 warnings
