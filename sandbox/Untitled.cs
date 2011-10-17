@@ -24,6 +24,8 @@ public class Grid
         {
             return results;
         }
+        
+
         return results;
     }
     
@@ -36,6 +38,16 @@ public class Grid
         if (position > this.Cells.Count) return false;
         
         return this.Cells[position -1];
+    }
+
+    public bool GetNeighborNW(int position)
+    {
+        return IsAlive(position - this.Witdh - 1)
+    }
+
+    public bool GetNeighborN(int position)
+    {
+        return IsAlive(position - this.Witdh)
     }
 }
 
