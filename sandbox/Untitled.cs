@@ -2,7 +2,46 @@ using System.Collections.Generic;
 using System;
 
 public class GameOfLife
-{}
+{
+    
+    public GameOfLife(Grid grid)
+    {
+        this.GoLGrid = grid;
+    }
+
+    public Grid GoLGrid {get;set;} 
+
+    public Grid GetNextGeneration()
+    {
+        List<bool> results = new List<bool>();
+        Grid grid = new Grid(GoLGrid.Width, GoLGrid.Height, results);
+        
+        for  (int i = 0; i < GoLGrid.Cells.Count)
+        {
+            int position = i + 1;
+            int numberOfLivingNeighbors = GoLGrid.GetNeighbors(position).Where(x => x == true).Count();
+            if (GoLGrid.IsAlive(position))
+            {
+                if (numberOfLivingNeighbors  < 2)
+                {
+                    results[i] = false; //dead
+                }
+                if (numberOfLivingNeighbors > 3)
+                {
+                    results[i] = false; //dead
+                }
+                //remains alive
+            }
+            else
+            {
+                if (numberOfLivingNeighbors = 3)
+                {
+                    results[i] = true; //alive
+                }
+            }
+        }
+    }
+}
 
 public class Grid
 {
@@ -17,6 +56,8 @@ public class Grid
     public int Height {get;set;}
     public List<bool> Cells {get;set;}
     
+    
+
     public List<bool> GetNeighbors(int position)
     {
         List<bool> results = new List<bool>();
