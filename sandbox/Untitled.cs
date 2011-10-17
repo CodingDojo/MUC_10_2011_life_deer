@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-public class Untitled
+public class GameOfLife
 {}
 
 public class Grid
@@ -83,7 +83,5 @@ public class Grid
     {
         return IsAlive(position + this.Width + 1);
     }
-
-
 }
 
