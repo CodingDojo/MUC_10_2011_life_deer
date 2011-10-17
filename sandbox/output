@@ -1,4 +1,5 @@
-.
-Tests run: 1, Failures: 0, Not run: 0, Time: 0.022 seconds
-
-
+Untitled.cs(21,17): error CS1519: Unexpected symbol `{' in class, struct, or interface member declaration
+Untitled.cs(21,21): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
+Untitled.cs(21,25): error CS1519: Unexpected symbol `;' in class, struct, or interface member declaration
+Untitled.cs(22,18): error CS8025: Parsing error
+Compilation failed: 4 error(s), 0 warnings

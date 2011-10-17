@@ -1,13 +1,7 @@
 using System.Collections.Generic;
 using System;
 
-public class Untitled
-{
-    public static int Answer
-    {
-        get { return 54; }
-    }
-}
+
 
 public class Grid
 {
@@ -18,9 +12,9 @@ public class Grid
         this.Cells = cells;
     }
     
-    public Width{get;set;}
-    public Height{get;set;}
-    public List<bool> Cells{get;set;}
+    public Width {get;set;}
+    public Height {get;set;}
+    public List<bool> Cells {get;set;}
     
     public List<bool> GetNeighbors(int position)
     {
@@ -29,11 +23,7 @@ public class Grid
         {
             return results;
         }
-        
-
         return results;
-
     }
-    
 }
 
